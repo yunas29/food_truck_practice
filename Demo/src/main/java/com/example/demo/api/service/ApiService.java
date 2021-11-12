@@ -60,6 +60,7 @@ public class ApiService {
         	list.add(new FoodTruckInfo(Long.valueOf(i), lnmadr, rdnmadr, latitude, longitude));
         			
         }
+        System.out.println(list.size());
         rd.close();
         conn.disconnect();
        // System.out.println(sb.toString());
