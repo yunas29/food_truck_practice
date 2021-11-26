@@ -11,9 +11,10 @@ import lombok.NoArgsConstructor;
 @Builder
 public class FoodTruckInfo {
 	private Long id;
+	private String prmisnZoneNm;
 	private String lnmadr;//주소
 	private String rdnmadr;
-	private String latitude;
-	private String longitude;
+	private double latitude;
+	private double longitude;
 
 }
