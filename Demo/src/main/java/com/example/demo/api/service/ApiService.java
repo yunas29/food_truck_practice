@@ -29,7 +29,7 @@ public class ApiService {
 	@Autowired
 	private GeocodingApiService geoApiService;
 	
-	public String search() throws IOException {
+	public List<FoodTruckInfo> search() throws IOException {
 		StringBuilder urlBuilder = new StringBuilder("http://api.data.go.kr/openapi/tn_pubr_public_food_truck_permit_area_api"); /*URL*/
         urlBuilder.append("?" + URLEncoder.encode("serviceKey","UTF-8") + "=" + encodingKey); /*Service Key*/
         urlBuilder.append("&" + URLEncoder.encode("pageNo","UTF-8") + "=" + URLEncoder.encode("0", "UTF-8")); /*페이지 번호*/
@@ -84,7 +84,7 @@ public class ApiService {
         rd.close();
         conn.disconnect();
        // System.out.println(sb.toString());
-        return new ObjectMapper().writeValueAsString(list);
+        return list;
         
 	}
 

@@ -1,13 +1,12 @@
 package com.example.demo.controller;
 
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.util.List;
 
-import org.json.JSONArray;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.api.dto.FoodTruckInfo;
@@ -23,9 +22,11 @@ public class TestController {
 	
 	@Autowired
 	private GeocodingApiService geoApiService;
-	@GetMapping("/getData")
-	public String getData() throws IOException {
-		String list = apiService.search();
+	
+	@ResponseBody
+	@PostMapping("/getData")
+	public List<FoodTruckInfo> getData() throws IOException {
+		List<FoodTruckInfo> list = apiService.search();
 		//return geoApiService.getLatLng(list);
 		//return list;
 		return list;

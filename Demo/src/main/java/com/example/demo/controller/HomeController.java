@@ -19,7 +19,7 @@ public class HomeController {
  
 	@GetMapping(value="/index")
     public String index(Model model) throws IOException {
-		model.addAttribute("locations", apiService.search());
+		//model.addAttribute("locations", apiService.search());
 		return "index";
     }
 	
