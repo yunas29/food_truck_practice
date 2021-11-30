@@ -23,5 +23,9 @@ public class HomeController {
 		return "index";
     }
 	
+	@GetMapping(value="/process")
+	public String process() {
+		return "process";
+	}
     
 }

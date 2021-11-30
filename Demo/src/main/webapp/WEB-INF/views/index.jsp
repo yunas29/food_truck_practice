@@ -13,6 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/custom.css">
 </head>
 <body>
     <nav class="navbar navbar-dark bg-dark" >
@@ -23,8 +24,8 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="/">홈</a>
-              <a class="nav-link" href="/process">푸드트럭신청과정</a>
+              <a class="nav-link active" aria-current="page" href="index">홈</a>
+              <a class="nav-link" href="./process">푸드트럭창업과정</a>
               <a class="nav-link" href="/login">로그인</a>
             </div>
           </div>
