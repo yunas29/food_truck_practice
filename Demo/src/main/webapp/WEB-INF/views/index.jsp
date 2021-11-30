@@ -58,7 +58,7 @@ function receiveArray() {
     $.ajax({
         url: "/api/getData",
         type: "post",
-        success: function(data) {alert("통신성공!"); showData(data)},
+        success: function(data) { showData(data)},
         error: function(e) {alert("통신실패"); console.log(e);}
     });
 }  
