@@ -26,7 +26,7 @@
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="index">홈</a>
               <a class="nav-link" href="./process">푸드트럭창업과정</a>
-              <a class="nav-link" href="/login">로그인</a>
+              <a class="nav-link" href="./area">상권분석</a>
             </div>
           </div>
         </div>
