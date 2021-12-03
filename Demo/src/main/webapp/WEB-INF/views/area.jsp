@@ -18,15 +18,15 @@
 <body>
     <nav class="navbar navbar-dark bg-dark" >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">푸드트럭 나들목</a>
+          <a class="navbar-brand" href="index"><span style="font-weight: bold;">푸드트럭 나들목</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="index">홈</a>
-              <a class="nav-link" href="./process">푸드트럭창업과정</a>
-              <a class="nav-link" href="./area">상권분석</a>
+              <a class="nav-link" href="./process">푸드트럭 창업절차</a>
+              <a class="nav-link" href="./map">푸드트럭 허가구역</a>
+              <a class="nav-link active" href="./area">상권분석</a>
             </div>
           </div>
         </div>

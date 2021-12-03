@@ -21,7 +21,7 @@
 <body>
 	<nav class="navbar navbar-dark bg-dark">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#"><span style="font-weight: bold;">푸드트럭 나들목</span></a>
+			<a class="navbar-brand" href="index"><span style="font-weight: bold;">푸드트럭 나들목</span></a>
 			<button class="navbar-toggler" type="button"
 				data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
 				aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -30,40 +30,47 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
-					<a class="nav-link" href="index">홈</a>
-					<a class="nav-link active" aria-current="page" href="process">푸드트럭창업과정</a>
-					<a class="nav-link" href="/login">로그인</a>
+					<a class="nav-link active" aria-current="page" href="process">푸드트럭 창업절차</a>
+					<a class="nav-link" href="./map">푸드트럭 허가구역</a>
+					<a class="nav-link" href="./area">상권분석</a>
 				</div>
 			</div>
 		</div>
 	</nav>
 
 	<div class="container-fluid">
-		<div class="jumbotron"
-			style="margin: 100px 0px 0px 0px; background-image: url('images/img6.jpg'); background-size: cover; text-align: center;">
-			<div class="container">
-				<div style="margin: 0px 0px 36% 0px;">
-					<br>
-					<h1 style="font-size: 60px;">푸드트럭 창업 절차 안내</h1>
-					<br> <br>
-					<p><span style="font-size: 20px;">
-						<span style="font-weight: bold;">푸드트럭 나들목</span>은 푸드트럭 창업자를 위한 전문
-						웹사이트입니다.<br> 2014년 푸드트럭 합법화 이후 푸드트럭 창업에 대한 관심은 해마다 높아지고 있습니다.<br>
-						하지만 체계화된 플랫폼의 부재에 따른 정보의 오류로 인해<br> 의도치 않은 불법 푸드트럭 운영 역시 증가하고
-						있는 추세입니다.</span>
-					</p>
-					<br>
-					<p><span style="font-size: 20px;">
-						따라서 <span style="font-weight: bold;">푸드트럭 나들목</span>은 산재되어 있는 푸드트럭
-						창업 관련 절차 정보를 통합하여 안내해 드립니다.</span>
-					</p>
-				</div>
-				<div style="text-align: right; margin:0px 50px 40px 0px;">
-					<a href="http://www.freepik.com" style="color: #d3d3d3; text-decoration: none;">Designed
-						by pch.vector / Freepik </a>
-				</div>
-			</div>
-		</div>
+	<div class="row">
+	<div class="col">
+	<div style="text-align: center;">
+	    <br><br><br>
+		<h1>푸드트럭 창업 절차 안내</h1>
+		<br><br>
+		<p><span style="font-size: 20px;">
+           <span style="font-weight: bold;">푸드트럭 나들목</span>은 푸드트럭 창업자를 위한 전문
+                 웹사이트입니다.<br> 2014년 푸드트럭 합법화 이후 푸드트럭 창업에 대한 관심은 해마다 높아지고 있습니다.<br>
+                 하지만 체계화된 플랫폼의 부재에 따른 정보의 오류로 인해<br> 의도치 않은 불법 푸드트럭 운영 역시 증가하고
+                 있는 추세입니다.
+           <br><br>
+            따라서 <span style="font-weight: bold;">푸드트럭 나들목</span>은 산재되어 있는 푸드트럭
+            창업 관련 절차 정보를 통합하여 안내해 드립니다.
+            </span>
+        </p>
+    </div>
+    
+    <div class="container-fluid">
+     <div class="row">
+      <div class="col">
+       <div class="pic">
+         <img src="images/food_truck_img.jpg" width="100%" alt="food_truck_img">
+           <span class="imgtext"><a href="http://www.freepik.com" style="color: white; text-decoration: none;">Designed by pch.vector / Freepik </a>
+           </span>
+       </div>
+      </div>
+     </div>
+    </div>
+		
+	</div>
+	</div>
 	</div>
 
 	<div class="container" style="margin: 100px 0px 20px 100px;">
